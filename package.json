@@ -46,6 +46,10 @@
     },
     "patchedDependencies": {
       "@mercuryworkshop/bare-mux@2.1.9": "patches/@mercuryworkshop__bare-mux@2.1.9.patch"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "@mercuryworkshop/scramjet",
+      "bufferutil"
+    ]
   }
 }
